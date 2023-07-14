@@ -163,4 +163,10 @@ object-fit: cover;
 
 
     }
+    .second-main{
+        display: flex;
+flex-direction: column;      
+  gap: 70px;
+    
+    }
 }
