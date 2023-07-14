@@ -1,3 +1,6 @@
+body{
+    padding: 0px 70px;
+}
 /* navigation bar */
 nav{
     display: flex;
@@ -16,14 +19,13 @@ header{
     width: 300px;
     height:200px;
     border-radius: 10px;
-    box-shadow: 1px 4px 10px rgba(196, 55, 55, 0.14);
+    box-shadow: 1px 4px 10px rgba(196, 55, 55, 0.458);
 
 
     
 }
 .baner-container{
     
-    border: 1px solid tomato;
     display: flex;
     justify-content: center;
     gap: 100px;
@@ -44,6 +46,9 @@ header{
 }
 .btn{
     border-radius: 5px;
+    box-shadow: 1px 4px 10px rgba(196, 135, 55, 0.694);
+
+
     background: #FD6E0A;
     border: 0px;
     font-size: 20px;
@@ -52,11 +57,42 @@ header{
 
 }
 .btn-primary{
+    box-shadow: 1px 4px 10px rgba(55, 90, 196, 0.761);
+
     background: blue;
     color: white;
     width: 170px;
     height: 50px;
 }
+/* main part */
+.main-container{
+    background-color: rgba(128, 128, 128, 0.266);
+    display: grid;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 10px rgba(215, 139, 236, 0.507);
+    margin-bottom: 20px;
+    grid-template-columns: repeat(2,1fr);
+}
+.explore-number{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+.right-text{
+    display: flex;
+    color: blue;
+    
+justify-content: space-evenly;
+}
+.m-c.r{
+
+}
+hr{
+width: 25vw;
+margin-bottom: 20px;
+}
+/* main part */
 
 
 /* responsive */
