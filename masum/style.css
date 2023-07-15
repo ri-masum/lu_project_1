@@ -1,13 +1,19 @@
 body {
     padding: 0px 70px;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 /* navigation bar */
 nav {
+
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 header {
     background-image: url('./image/banner.png');
@@ -52,6 +58,8 @@ header {
 }
 
 .btn {
+    cursor:pointer;
+
     border-radius: 5px;
     box-shadow: 1px 4px 10px rgba(196, 135, 55, 0.694);
 
@@ -63,6 +71,7 @@ header {
     height: 64px;
 
 }
+
 
 .btn-primary {
     box-shadow: 1px 4px 10px rgba(55, 90, 196, 0.761);
@@ -232,4 +241,5 @@ hr {
     .main-container3>div {
         padding: 30px;
     }
+
 }
