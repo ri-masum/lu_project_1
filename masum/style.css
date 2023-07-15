@@ -1,50 +1,57 @@
-body{
+body {
     padding: 0px 70px;
 }
+
 /* navigation bar */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header{
+
+header {
     background-image: url('./image/banner.png');
-    background-size:400px ;
+    background-size: 400px;
     background-repeat: no-repeat;
     background-position: right 50px;
 
 }
-.baner-right{
-    background-color:white;
+
+.baner-right {
+    background-color: white;
     width: 300px;
-    height:200px;
+    height: 200px;
     border-radius: 10px;
     box-shadow: 1px 4px 10px rgba(196, 55, 55, 0.458);
 
 
-    
+
 }
-.baner-container{
-    
+
+.baner-container {
+
     display: flex;
     justify-content: center;
     gap: 100px;
     align-items: center;
-    
+
 
 }
-.baner-right > div{
+
+.baner-right>div {
 
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 
 }
-.baner-left{
+
+.baner-left {
     font-size: 40px;
 }
-.btn{
+
+.btn {
     border-radius: 5px;
     box-shadow: 1px 4px 10px rgba(196, 135, 55, 0.694);
 
@@ -56,7 +63,8 @@ header{
     height: 64px;
 
 }
-.btn-primary{
+
+.btn-primary {
     box-shadow: 1px 4px 10px rgba(55, 90, 196, 0.761);
 
     background: blue;
@@ -64,109 +72,164 @@ header{
     width: 170px;
     height: 50px;
 }
+
 /* main part */
-main > h3{
+main>h3 {
     margin: 50px 0px;
     font-size: 30px;
-    
+
 
 }
-.main-container{
+
+.main-container {
     background-color: rgba(128, 128, 128, 0.266);
     display: grid;
     padding: 50px;
     border-radius: 10px;
     box-shadow: 1px 4px 10px rgba(215, 139, 236, 0.507);
     margin-bottom: 20px;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
-.explore-number{
+
+.explore-number {
     display: flex;
     justify-content: start;
     gap: 20px;
 }
-.right-text{
+
+.right-text {
     display: flex;
     color: blue;
-    
-justify-content: space-evenly;
-}
-.m-c.r{
 
+    justify-content: space-evenly;
 }
-hr{
-width: 25vw;
-margin-bottom: 20px;
+
+.m-c.r {}
+
+hr {
+    width: 25vw;
+    margin-bottom: 20px;
 }
+
 /* main part */
 /* main part 2 */
-.second-main{
+.second-main {
     display: flex;
     justify-content: center;
     gap: 70px;
 
 }
-.main-container2{
+
+.main-container2 {
 
     box-shadow: 1px 4px 10px rgba(151, 14, 189, 0.507);
     border-radius: 20px;
     width: 400px;
     height: 700px;
 }
-.main-container2 >div {
+
+.main-container2>div {
     padding: 30px;
 }
 
-.main-container2 > img{
-width: 400px;
-object-fit: cover;
+.main-container2>img {
+    width: 400px;
+    object-fit: cover;
 }
-.main-container2 > p {
-    color:rgb(51, 51, 51);
+
+.main-container2>p {
+    color: rgb(51, 51, 51);
 
 }
-.large-font{
+
+.large-font {
     font-size: 45px;
 }
-.small-font{
+
+.small-font {
     margin-left: 30px;
-    color:rgb(51, 51, 51);
+    color: rgb(51, 51, 51);
 }
+
 /* main part 2 */
 
+/* main part 3 */
+
+.main-container3 {
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 10px rgba(151, 14, 189, 0.507);
+
+    background-color: rgba(128, 128, 128, 0.178);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+
+}
+.main-container3 > div > img {
+    width: 400px;
+    object-fit: cover;
+}
+.main-container3>div {
+    padding: 30px;
+}
+
+
+/* main part 3 */
 
 /* responsive */
 @media screen and (max-width:576px) {
-    body{
+    body {
         padding: 0px;
 
     }
-    header{
+
+    header {
         background-image: url('./image/banner.png');
-        background-size:90% ;
+        background-size: 90%;
 
         background-repeat: no-repeat;
         background-position: right 90px;
-    
+
     }
-    .baner-container{
+
+    .baner-container {
         display: flex;
         flex-direction: column;
     }
-    .main-container{
-        
+
+    .main-container {
+
         display: grid;
-    border-radius: 10px;
-    box-shadow: 1px 4px 10px rgba(215, 139, 236, 0.507);
-    margin-bottom: 20px;
-    grid-template-columns: repeat(1,1fr);
+        border-radius: 10px;
+        box-shadow: 1px 4px 10px rgba(215, 139, 236, 0.507);
+        margin-bottom: 20px;
+        grid-template-columns: repeat(1, 1fr);
 
 
     }
-    .second-main{
+
+    .second-main {
         display: flex;
-flex-direction: column;      
-  gap: 70px;
+        flex-direction: column;
+        gap: 70px;
+
+    }
+    .main-container3{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+
     
+    }
+    .main-container3 > div > img {
+        width: 400px;
+        object-fit: cover;
+    }
+    .main-container3>div {
+        padding: 30px;
     }
 }
