@@ -12,6 +12,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 1px 4px 10px rgba(29, 26, 26, 0.9);
+
 }
 
 

@@ -35,6 +35,10 @@ nav div input {
     border: 1px solid rgba(255, 99, 71, 0.325);
 
 }
+nav{
+    box-shadow: 1px 4px 10px rgba(29, 26, 26, 0.9);
+
+}
 
 nav div h1 {
     margin-left: 20px;
@@ -48,11 +52,68 @@ nav div h1 {
     align-items: center;
     background-color: rgba(250, 235, 215, 0.421);
 }
+
 #profile {
     border-radius: 5px;
     padding: 10px;
     background-color: rgba(0, 0, 255, 0.15);
 }
+
+.btn {
+    cursor: pointer;
+
+    border-radius: 5px;
+    box-shadow: 1px 4px 10px rgba(196, 135, 55, 0.694);
+
+
+    background: #FD6E0A;
+    border: 0px;
+    font-size: 20px;
+    width: 150px;
+    height: 64px;
+
+}
+
+
+.btn-primary {
+    box-shadow: 1px 4px 10px rgba(55, 90, 196, 0.761);
+
+    background: rgba(5, 5, 238, 0.837);
+    color: white;
+    width: 170px;
+    height: 50px;
+}
+
+/* upload section  */
+
+.upload-section {
+    margin-top: 7em;
+    display: flex;
+    
+    justify-content: center;
+    gap: 9em;
+}
+
+.upload-paper {
+text-size-adjust:unset;}
+
+.drag_N_drop {
+
+    width: 400px;
+    height: 200px;
+    border: 1px dotted black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+/* upload section  */
+
+
 
 @media screen and (max-width:576px) {
 
@@ -77,6 +138,13 @@ nav div h1 {
         border-radius: 5px;
         padding: 10px;
         background-color: rgba(0, 0, 255, 0.15);
+
+    }
+
+    .upload-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
 
     }
 
