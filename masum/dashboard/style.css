@@ -97,6 +97,13 @@ body {
   display: inline !important;
   position: absolute;
 }
+
+
+.close-pointer:hover{
+    cursor: pointer;
+}
+
+
 /* --------main ------- */
 .main-container {
   grid-area: main;

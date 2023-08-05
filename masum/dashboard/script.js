@@ -1,5 +1,5 @@
 // sidebar toggle
-var openSidebar = false;
+var sidebarOpen = false;
 var sidebar = document.getElementById("sidebar");
 
 // sidebar function to open
