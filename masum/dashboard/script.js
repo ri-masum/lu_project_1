@@ -67,7 +67,7 @@ barChart.render();
 var areaChartOption = {
   series: [
     {
-      name: "Purchase Orders",
+      name: "Purchase COURSES",
 
       data: [33, 30, 20, 51, 42, 109,100],
     },
@@ -101,13 +101,13 @@ var areaChartOption = {
   yaxis: [
     {
       title: {
-        text: "Purchase Order",
+        text: "Purchase COURSE",
       },
     },
     {
       opposite: true,
       title: {
-        text: "Salws orders",
+        text: "SalES orders",
       },
     },
   ],
