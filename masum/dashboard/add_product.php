@@ -101,7 +101,7 @@ if (isset($_POST["submit"])) {
                         <td>" . $row['title'] . "</td>
                         <td>" . $row['description'] . "</td>
                         <td>" . $row['price'] . "</td>
-                        <td><img width='100px' src='" . $row['photo'] . "' alt='img from DB'></td>
+                        <td><img width='100px' src='" . $row['photo'] . "' alt='image'></td>
                         <td><a class='btn btn-dark' href='update.php?id=" . $row['id'] . "'>Update</a></td>
                         <td><a class='btn btn-dark' href='delete.php?id=" . $row['id'] . "'>Delete</a></td>            
                     </tr>
