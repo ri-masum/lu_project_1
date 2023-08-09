@@ -28,7 +28,7 @@
         <hr>
         <section class="baner-container">
             <div class="baner-left">
-                <h1>Download PDF <br> for Free</h1>
+                <h1>Find Other  <br> Students Here</h1>
                 <button class="btn btn-primary"> Sign Up</button>
 
             </div>
@@ -42,7 +42,7 @@
                 </div>
                 <div>
                     <div>
-                        <p>Uploaded Papers </p>
+                        <p>Course Uploaded </p>
                     </div>
                     <div><b>100</b></div>
 
@@ -437,14 +437,14 @@
 
         <!-- history economics physics box making  finish-->
         <!-- second main part start -->
-        <h3>Join 228 million academics and researchers
+        <h3 >Join Our Community
         </h3>
         <div class="second-main">
             <div class="main-container2">
                 <img src="./image/image3.svg" alt="">
                 <div>
-                    <h5 class="small-font">ACCELERATE YOUR RESEARCH</h5>
-                    <h2 class="large-font">Streamline your discovery of relevant research</h2>
+                    <h5 class="small-font">ACCELERATE YOUR Skills</h5>
+                    <h2 class="large-font">Streamline your discovery </h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error quibusdam assumenda nostrum quae!
                         Error dolorum ratione temporibus! Delectus, consectetur ipsam.</p>
 
@@ -454,8 +454,8 @@
             <div class="main-container2">
                 <img src="./image/image4.svg" alt="">
                 <div>
-                    <h5 class="small-font">ACCELERATE YOUR RESEARCH</h5>
-                    <h2 class="large-font">Streamline your discovery of relevant research</h2>
+                    <h5 class="small-font">ACCELERATE YOUR Skills</h5>
+                    <h2 class="large-font">Streamline your discovery </h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error quibusdam assumenda nostrum quae!
                         Error dolorum ratione temporibus! Delectus, consectetur ipsam.</p>
 
@@ -475,7 +475,7 @@
                 <img src="./image/image5.png" alt="">
             </div>
                 <div>
-                    <h2 class="">Get started and find the best quality research</h2>
+                    <h2 class="">Get started and find the best quality Courses <br> and find your solution</h2>
                     <button class="btn btn-primary">Sign Up</button>
                 
             </div>

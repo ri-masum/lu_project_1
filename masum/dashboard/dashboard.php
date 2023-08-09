@@ -69,7 +69,7 @@
         </li> -->
         <li class="sidebar-list-item">
           <span class="material-icons-outlined">
-            add_shopping_cart </span>Purchase
+           work </span>JOBS
         </li>
         <!-- <li class="sidebar-list-item">
           <span class="material-icons-outlined">
